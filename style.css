@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+li, a, button {
+    font-family: 'Graphik';
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    padding: 5px ;
+    width: 200px;
+
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: wheat;
+}
+button {
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 30px;
+    width: 150px;
+
+}
+
+button:hover {
+    background-color: white;
+
+
+}
+h1{
+    font-family: cursive;
+    font-size: 66px;
+    
+    text-align: justify;
+    text-align-last: left;
+    margin-top: auto;
+    margin-left: 150px;
+}
+ 
+
+
+
+h2{
+    color: blue;
+    text-align: justify;
+    text-align-last: left;
+    margin-top: auto;
+    margin-left: 150px;
+    font-size: 20px;
+
+}
+p1 { 
+    position: absolute;
+    text-align-last: left;
+    
+    margin-left: 170px;
+    font-size: 20px; 
+    font-family: 'Graphik';
+}
+.work {
+    position: absolute;
+width: 500px;
+height: 600px;
+left: 715px;
+top: 242px;
+}
+.but{
+    margin-left: 100px;
+    width: 50%;
+    font-size: 20px;
+    text-decoration-color: greenyellow;
+   
+
+}
+.comp {
+    position: center;
+    position: relative;
+    margin-top: 250px;
+    margin-right:auto;
+    margin-left: auto;
+    display:block;
+   
+
+}
+p2{
+    margin-top: 800px;
+    position: absolute;
+left: 13.5%;
+right: 50.94%;
+top: 20.4%;
+bottom: 76.22%;
+
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 80px;
+
+
+letter-spacing: -0.05em;
+
+color: #16131D;
+
+}
+p3{
+    position: absolute;
+    text-align-last: left;
+    
+    margin-left: 190px;
+    font-size: 20px; 
+    font-family: 'Graphik';
+    margin-top: 200px;
+}
+h3 {
+    position: relative;
+    text-align-last: right;
+    margin-right: 190px;
+  margin-top: 70px;
+    font-family: 'Graphik';
+
+}
+h4{
+    position: absolute;
+    text-align-last: left;
+    
+    margin-left: 190px;
+    font-size: 20px; 
+    font-family: 'Graphik';
+    margin-top: 350px; 
+}
+p4{
+    position: absolute;
+    text-align-last: left;
+    
+    margin-left: 190px;
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 380px; 
+}
+h5 {
+    position: absolute;
+left: 13.62%;
+right: 63.44%;
+top: 33.56%;
+bottom: 63.91%;
+
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 90px;
+margin-top: 1260px;
+
+letter-spacing: -0.05em;
+
+color: #17151E;
+}
+p5 {
+    position: absolute;
+    text-align-last: center;
+    margin-top: 50px;
+    margin-left: 550px;
+    font-size: 20px; 
+    font-family: 'Graphik';  
+}
+.black {
+    position: absolute;
+width: 250px;
+height: 150px;
+left: 1015px;
+top: 242px;
+margin-top: 1200px
+}
+.screen {
+    position: relative;
+width: 600px;
+height: 500px;
+left: 150px;
+top: 242px;
+margin-top: 50px
+}
+
+h6{
+    position: absolute;
+left: 57.31%;
+right: 12.69%;
+top: 38.16%;
+bottom: 59.73%;
+
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 50px;
+margin-top: 1500px;
+
+letter-spacing: -0.05em;
+
+color: #16131D;
+
+    
+}
+p6{
+    position: absolute;
+left: 57.31%;
+right: 13.44%;
+top: 40.62%;
+bottom: 57.62%;
+
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+/* or 136% */
+
+letter-spacing: 0.02em;
+
+color: #16131D;
+
+opacity: 0.7;
+margin-top: 1650px;
+}
+.arrow{
+    box-sizing: border-box;
+
+position: absolute;
+left: 57.31%;
+right: 39.31%;
+top: 42.8%;
+bottom: 56.44%;
+
+background: #16131D;
+box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
+}
